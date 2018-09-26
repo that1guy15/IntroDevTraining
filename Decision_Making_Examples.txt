@@ -1,0 +1,20 @@
+#--------------------------------------------------------------------------------------------------------------#
+# If Statement
+# Operands:
+# - !=	not equal
+# - ==	equals
+# - >	greater than
+# - <	smaller than
+#--------------------------------------------------------------------------------------------------------------#
+blah = 99
+meh = 69
+
+if blah > meh:
+	print("blah is greater than meh")
+elif blah < meh:
+	print("blah is less than meh")
+elif blah != meh:
+	print("blah doesn't equal meh")
+else:
+	print("blah equals meh")
+#--------------------------------------------------------------------------------------------------------------#

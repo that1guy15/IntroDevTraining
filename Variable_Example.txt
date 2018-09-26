@@ -1,0 +1,5 @@
+#Variables Example
+var = "Hello World"
+
+#How to Use Variables to Print to the Screen
+print(var)
