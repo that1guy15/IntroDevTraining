@@ -9,6 +9,7 @@ autobot_list = [ "Optimus", "Bumblebee", "Ironhide", "Bluestreak" ]
 
 ## Print Full or just Elements of a List
 print(autobot_list)
+print(autobot_list[1])
 
 ## Add Element to List
 autobot_list.append("Hound")
@@ -30,7 +31,7 @@ print(autobot_list)
 # Tuple:
 # The tuple data structure is used to store a group of data
 # The elements in this group are separated by a comma
-# Once created, the values of a tuple cannot change
+# Once created, the values of a tuple cannot change (immutable)
 #--------------------------------------------------------------------------------------------------------------#
 # Create Empty Tuple
 decepticons_tuple = ()
@@ -41,6 +42,9 @@ print(decepticons_tuple[0])
 
 # Append to the Tuple
 decepticons_tuple = decepticons_tuple + ("Soundwave", "Starscream")
+or
+decepticons_tuple += ("Soundwave", "Starscream")
+
 print(decepticons_tuple[0])
 print(decepticons_tuple[1])
 print(decepticons_tuple[2])
